@@ -19,3 +19,11 @@
 * Note- when typing the password in, nothing will show up in the terminal for privacy reasons.
 6. You should then see something similar to this, informing you that you remotely connected:
 * ![Image](connected.png)
+
+# Run some commands
+1. Try a few commands in the terminal like "ls". This one will list the files in the directory
+* Example: ![Image](ls.png)
+2. To find what the current directory path is, you can use the "pwd" command
+3. You can change the director using "cd". For instance "cd  /home/linux/ieng6/cs15lwi23" and then "cd /home/linux/ieng6/cs15lwi23/xxxxxxxx" where the xxxxxs are replaced with your course ID
+4. cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/ will copy the hello file to your home directory
+* To see this, you can use the "ls" command
