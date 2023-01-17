@@ -6,3 +6,16 @@
 2. When it finishes downloading the setup, open it and select "I agree" then next
 * It should look like this ![Image](agrement.png)
 3. Then choose next again, and then finish. It will then install and open VScode
+
+# Remote Connecting
+1. First open VScode, then at the top left, look for "Terminal". 
+2. Select "Terminal" and then "New Terminal"
+3. Type in "ssh cs15lwi23zz@ieng6.ucsd.edu" where the "zz" is replaced with the last three letters of your course specific account.
+* For instance if your course specific account is "cs15lwi23bad" then you would type in "ssh cs15lwi23bad@ieng6.ucsd.edu"
+* If you do not know what your course specific account is, go to [Link](https://sdacs.ucsd.edu/~icc/index.php) and log in
+* Under "additional accounts" you should see a grey box with your course specific id
+4. After typing this in the terminal, it will ask if you want to connect, and you should say yes
+5. After accepting, it will ask for your password. Type in your ucsd student account password, and press enter
+* Note- when typing the password in, nothing will show up in the terminal for privacy reasons.
+6. You should then see something similar to this, informing you that you remotely connected:
+* ![Image](connected.png)
